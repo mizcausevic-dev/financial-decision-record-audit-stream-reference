@@ -1,0 +1,15 @@
+{
+  "name": "financial-decision-record-audit-stream-reference",
+  "version": "0.1.0",
+  "description": "AGPL-3.0 reference implementation of the FinTech audit-stream. Runs the Meridian Financial × VendorF CreditMind v4.x canonical trajectory end-to-end. Enforces 2 orthogonal invariants on credit decisions: human-credit-officer-required on adverse-action-capable recommendations + FCRA permissible-purpose required on every credit-bureau pull (the strongest FCRA §604 audit-stream design in the Suite).",
+  "type": "module",
+  "main": "src/cli.mjs",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "start": "node src/cli.mjs"
+  },
+  "license": "AGPL-3.0-only",
+  "homepage": "https://github.com/mizcausevic-dev/financial-decision-record-audit-stream-reference",
+  "repository": { "type": "git", "url": "git+https://github.com/mizcausevic-dev/financial-decision-record-audit-stream-reference.git" },
+  "keywords": ["fintech", "audit-stream", "reference-implementation", "fcra", "ecoa-reg-b", "cfpb", "section-604", "kinetic-gain-protocol-suite"]
+}
